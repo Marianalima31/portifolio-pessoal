@@ -22,7 +22,7 @@ O projeto foi construído **apenas com HTML5 e CSS puro**, sem frameworks ou bib
 
 Você pode acessar a versão publicada no Netlify:
 
-🔗 [https://SEU-SITE.netlify.app](https://SEU-SITE.netlify.app)
+🔗 (https://marianalima.netlify.app)
 
 
 ---
