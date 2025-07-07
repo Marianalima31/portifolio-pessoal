@@ -1,0 +1,174 @@
+/* Define cor de fundo geral e fonte */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f3e5f5; /* Cor de fundo mais clara */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Cabeçalho com cor de destaque */
+header {
+    background-color: #6a1b9a; /* Roxo escuro */
+    color: #e1bee7; /* Roxo claro */
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky; /* Menu fixo ao rolar */
+    top: 0;
+    z-index: 1000;
+}
+
+/* Logo */
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+/* Navegação */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+/* Links do menu */
+nav a {
+    color: #e1bee7; /* Roxo claro */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Links do menu ao passar o mouse */
+nav a:hover {
+    text-decoration: underline;
+    color: #d1c4e9; /* Roxo mais claro ao passar o mouse */
+}
+
+/* Conteúdo principal */
+main {
+    width: 90%;
+    max-width: 900px;
+    background-color: white;
+    margin: 30px auto;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Títulos */
+h2 {
+    color: #6a1b9a; /* Roxo escuro */
+    font-size: 1.5em;
+}
+
+/* Parágrafos e listas */
+p, li {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #131212;
+}
+
+/* Rodapé */
+footer {
+    background-color: #6a1b9a; /* Roxo escuro */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Formulário de contato */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Botão do formulário */
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #8e24aa; /* Roxo médio */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #ab47bc; /* Roxo claro ao passar o mouse */
+}
+
+/* Responsividade mínima */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+}
+
+/* Hero Section */
+.hero {
+  background-color: #f8f8f8;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.hero .btn {
+    background-color: #ab47bc; /* Roxo claro */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #9c27b0; /* Roxo mais escuro ao passar o mouse */
+}
